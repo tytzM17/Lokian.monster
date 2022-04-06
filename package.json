@@ -2,6 +2,7 @@
   "name": "lokian.monster",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://tytzm17.github.io/Lokian.monster/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^12.0.0",
@@ -13,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts build && mv build docs",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
