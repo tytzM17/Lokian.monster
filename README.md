@@ -1,6 +1,6 @@
 # Lokian.monster: A landing page for Lokian trading card game with NFTs, share, fight and breed monsters in solidity blockchains.
 
- <img src="%PUBLIC_URL%/myCreatures.png" alt="" width="1000em" height="500em">
+ <img src="./screenshots/myCreatures.png" alt="" width="1000em" height="500em">
 
 ***
 
