@@ -95,7 +95,7 @@ function App() {
             </h2>
 
             <img
-              src={process.env.PUBLIC_URL + '/myCreatures.png'}
+              src={process.env.PUBLIC_URL + '/myCreatures.PNG'}
               width="100%"
             />
 
@@ -106,7 +106,7 @@ function App() {
             </h2>
 
             <img
-              src={process.env.PUBLIC_URL + '/myShop-Capture.png'}
+              src={process.env.PUBLIC_URL + '/myShop-Capture.PNG'}
               width="100%"
             />
 
@@ -117,7 +117,7 @@ function App() {
             </h2>
 
             <img
-              src={process.env.PUBLIC_URL + '/marketplace.png'}
+              src={process.env.PUBLIC_URL + '/marketplace.PNG'}
               width="100%"
             />
 
@@ -127,7 +127,7 @@ function App() {
               Breed monsters at the breeding grounds
             </h2>
 
-            <img src={process.env.PUBLIC_URL + '/breed.png'} width="100%" />
+            <img src={process.env.PUBLIC_URL + '/breed.PNG'} width="100%" />
 
             <br />
             <br />
@@ -143,7 +143,7 @@ function App() {
               Share with other users at the Sharing Area
             </h2>
 
-            <img src={process.env.PUBLIC_URL + '/share.png'} width="100%" />
+            <img src={process.env.PUBLIC_URL + '/share.PNG'} width="100%" />
 
             <br />
             <br />
@@ -152,7 +152,7 @@ function App() {
             </h2>
 
             <img
-              src={process.env.PUBLIC_URL + '/sharedToMe.png'}
+              src={process.env.PUBLIC_URL + '/sharedToMe.PNG'}
               width="100%"
             />
 
