@@ -69,6 +69,23 @@ function App() {
               </a>
             </div>
 
+            <h2 style={{ textDecoration: 'none' }}>Contracts</h2>
+            <ul>
+              <li>
+                {' '}
+                Contract on Polygon Mainnet:
+                0x5148A559cFaaEC1A915ae41e00A8Dd2Fa17ba64f
+              </li>
+              <li>
+                {' '}
+                ERC20 on Polygon Mainnet:
+                0x4d8d24968458af521ef02aefD95f161dF3f9Ea01
+              </li>
+              <li>
+                NFT on Polygon Mainnet:
+                0x8227767903Fa90A90060E28a45506318E03997aD
+              </li>
+            </ul>
             <br />
             <br />
             <br />
@@ -213,7 +230,7 @@ function App() {
                 <ul>
                   <li>Supply: Infinite, </li>
                   <li>
-                    Circulation: <i>soon</i>
+                    Circulation: 10,000,000 <i>(as of april 2022)</i>
                   </li>
                   <li>Arena Rewards: Infinite</li>
                   <li>
@@ -221,11 +238,23 @@ function App() {
                     <i> (will decrease the circulation) </i>{' '}
                   </li>
                   <li>
-                    Exchanges: <i>soon</i>{' '}
+                    Exchanges:{' '}
+                    <a
+                      href="https://app.sushi.com/trident/swap?tokens=0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270&tokens=0x4d8d24968458af521ef02aefD95f161dF3f9Ea01&chainId=137"
+                      target="_blank"
+                    >
+                      SushiSwap <i>(polygon)</i>
+                    </a>{' '}
                   </li>
                   <li>
-                    Token Address: 0x2683EbB22FE772dB15C09b99897bD38B2Bf2487E{' '}
-                    <i>(mumbai)</i>{' '}
+                    Token:{' '}
+                    <a
+                      href=" https://polygonscan.com/address/0x4d8d24968458af521ef02aefD95f161dF3f9Ea01#code"
+                      target="_blank"
+                    >
+                      Lokians
+                    </a>{' '}
+                    <i>(Polygon Mainnet)</i>{' '}
                   </li>
                   <li>
                     {' '}
@@ -267,8 +296,14 @@ function App() {
                   </a>{' '}
                 </li>
                 <li>
-                  NFT Address: 0xC924448D65D0b20629eaAD25eE79bC2911E8690a{' '}
-                  <i>(mumbai)</i>{' '}
+                  NFT Address:{' '}
+                  <a
+                    href="https://polygonscan.com/address/0x8227767903Fa90A90060E28a45506318E03997aD#code"
+                    target="_blank"
+                  >
+                    LokianItems
+                  </a>{' '}
+                  <i>(Polygon Mainnet)</i>{' '}
                 </li>
                 <li>
                   NFT Staking Rewards: <i>soon</i>{' '}
