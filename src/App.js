@@ -311,21 +311,27 @@ function App() {
                     href="https://github.com/tytzM17/Lokian.eth"
                     target="_blank"
                   >
-                    Lokian App
+                    LokiMons App
                   </a>
                   ,{' '}
                   <a
                     href="https://github.com/tytzM17/Lokian.monster"
                     target="_blank"
                   >
-                    Lokian Website
+                    LokiMons Website
                   </a>
                 </li>
                 <li>
-                  Telegram: <i>soon</i>{' '}
+                  Telegram:{' '}
+                  <a href="https://t.me/lokiMons" target="_blank">
+                    LokiMons Channel
+                  </a>{' '}
                 </li>
                 <li>
-                  Twitter: <i>soon</i>{' '}
+                  Twitter:{' '}
+                  <a href="https://twitter.com/LokianMonster" target="_blank">
+                    LokiMons Account
+                  </a>{' '}
                 </li>
               </ul>
             </div>
@@ -339,15 +345,37 @@ function App() {
             <br />
 
             <div class="rpgui-center">
-				<h1 style={{ fontSize: '1.25em', lineHeight: '1.75em' }}>That's it, for now!</h1>
-				<p>Check out DAO and Staking in the future!</p>
-				<br /><br />
-				<a href="#main">Back to Top</a>
-				<br /><br />
-				<img src={process.env.PUBLIC_URL + '/lesh.png'} style={{position:'absolute', display:'inline-block', width:'70px', right:'0px', bottom:"0px"}} />
-				<img src={process.env.PUBLIC_URL + '/lesh.png'} style={{position:'absolute', display:'inline-block', width:'70px', left:'0px', bottom:"0px", transform: "scaleX(-1)"}} />
-			</div>
-
+              <h1 style={{ fontSize: '1.25em', lineHeight: '1.75em' }}>
+                That's it, for now!
+              </h1>
+              <p>Check out DAO and Staking in the future!</p>
+              <br />
+              <br />
+              <a href="#main">Back to Top</a>
+              <br />
+              <br />
+              <img
+                src={process.env.PUBLIC_URL + '/lesh.png'}
+                style={{
+                  position: 'absolute',
+                  display: 'inline-block',
+                  width: '70px',
+                  right: '0px',
+                  bottom: '0px',
+                }}
+              />
+              <img
+                src={process.env.PUBLIC_URL + '/lesh.png'}
+                style={{
+                  position: 'absolute',
+                  display: 'inline-block',
+                  width: '70px',
+                  left: '0px',
+                  bottom: '0px',
+                  transform: 'scaleX(-1)',
+                }}
+              />
+            </div>
           </div>
         </div>
       </div>
