@@ -74,16 +74,31 @@ function App() {
               <li>
                 {' '}
                 Contract on Polygon Mainnet:
-                0x5148A559cFaaEC1A915ae41e00A8Dd2Fa17ba64f
+                <a
+                  href=" https://polygonscan.com/address/0x5148A559cFaaEC1A915ae41e00A8Dd2Fa17ba64f#code"
+                  target="_blank"
+                >
+                  0x5148A559cFaaEC1A915ae41e00A8Dd2Fa17ba64f
+                </a>{' '}
               </li>
               <li>
                 {' '}
                 ERC20 on Polygon Mainnet:
-                0x4d8d24968458af521ef02aefD95f161dF3f9Ea01
+                <a
+                  href="https://polygonscan.com/address/0x4d8d24968458af521ef02aefD95f161dF3f9Ea01#code"
+                  target="_blank"
+                >
+                  0x4d8d24968458af521ef02aefD95f161dF3f9Ea01
+                </a>{' '}
               </li>
               <li>
                 NFT on Polygon Mainnet:
-                0x8227767903Fa90A90060E28a45506318E03997aD
+                <a
+                  href="https://polygonscan.com/address/0x8227767903Fa90A90060E28a45506318E03997aD#code"
+                  target="_blank"
+                >
+                  0x8227767903Fa90A90060E28a45506318E03997aD
+                </a>{' '}
               </li>
             </ul>
             <br />

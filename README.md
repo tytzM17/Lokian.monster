@@ -25,12 +25,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - Open [http://localhost:3000](http://localhost:3000) to view it in the browser. You can see all the Creatures owned by the current metamask account and play the game.
 
 ## Remaining Tasks
-
-Ongoing
+Done
 - Create minimal landing page (mvp)
 - Deploy to evm compatible mainnets (mvp)
 - Refactor app upon hosting (mvp)
-- Check guide on dapp submission, submit dapp (mvp)
+
+Ongoing
+- Submit dapp (mvp)
+- List coin in coingecko, coinmarketcap (mvp)
+- List on gate.io, okex
 
 
 
