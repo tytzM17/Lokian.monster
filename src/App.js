@@ -143,6 +143,13 @@ function App() {
                 </a>{' '}
               </li>
             </ul>
+            <div style={{ display: 'flex', justifyContent: 'center' }}>
+              <a href="https://bsc.lokian.monster" target="_blank">
+                <button type="button" className="rpgui-button">
+                  <p>Launch BSC App</p>
+                </button>
+              </a>
+            </div>
             <br />
             <br />
             <br />
@@ -301,7 +308,13 @@ function App() {
                       target="_blank"
                     >
                       SushiSwap <i>(polygon)</i>
-                    </a>{' '}
+                    </a>,{' '}
+                    <a
+                      href="https://pancakeswap.finance/swap"
+                      target="_blank"
+                    >
+                      PancakeSwap <i>(bsc)</i>
+                    </a>        
                   </li>
                   <li>
                     Token:{' '}
