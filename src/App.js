@@ -36,7 +36,7 @@ function App() {
               <h2 style={{ fontSize: '1.25em', lineHeight: '1.75em' }}>
                 Welcome to the landing page for Lokian trading card game with
                 NFTs, share, fight and breed monsters in solidity blockchains.
-                Available in Polygon, Moonriver, Fantom, Avalanche, and BSC
+                Available in Polygon, Moonriver, Astar, Fantom, Avalanche, and BSC
                 networks
               </h2>
             </header>
@@ -80,7 +80,7 @@ function App() {
                 <li>
                   {' '}
                   Main Contract on Polygon Mainnet (same addresses with
-                  Moonriver, Avalanche, and Fantom):
+                  Moonriver, Astar, Avalanche, and Fantom):
                   <a
                     href=" https://polygonscan.com/address/0x5148A559cFaaEC1A915ae41e00A8Dd2Fa17ba64f#code"
                     target="_blank"
@@ -350,6 +350,14 @@ function App() {
                           target="_blank"
                         >
                           SushiSwap <i>(avalanche)</i>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://app.arthswap.org/#/swap"
+                          target="_blank"
+                        >
+                          ArthSwap <i>(astar)</i>
                         </a>
                       </li>
                     </ul>
