@@ -36,6 +36,7 @@ function App() {
               <h2 style={{ fontSize: '1.25em', lineHeight: '1.75em' }}>
                 Welcome to the landing page for Lokian trading card game with
                 NFTs, share, fight and breed monsters in solidity blockchains.
+                Available in Polygon, Moonriver, Fantom, Avalanche, and BSC networks
               </h2>
             </header>
 
@@ -70,10 +71,11 @@ function App() {
             </div>
 
             <h2 style={{ textDecoration: 'none' }}>Contracts</h2>
+            <div className='rpgui-container framed-golden-2' style={{position:'relative'}}>
             <ul>
               <li>
                 {' '}
-                Contract on Polygon Mainnet:
+                Main Contract on Polygon Mainnet (same addresses with Moonriver, Avalanche, and Fantom):
                 <a
                   href=" https://polygonscan.com/address/0x5148A559cFaaEC1A915ae41e00A8Dd2Fa17ba64f#code"
                   target="_blank"
@@ -98,6 +100,40 @@ function App() {
                   target="_blank"
                 >
                   0x8227767903Fa90A90060E28a45506318E03997aD
+                </a>{' '}
+              </li>
+            </ul>
+            </div>
+
+<br /><br />
+            <ul>
+              <li>
+                {' '}
+                Main Contract on BSC Mainnet:
+                <a
+                  href=" https://bscscan.com/address/0x6d88cBBD35E19958eFB4500f93D346c126bB7Df2#code"
+                  target="_blank"
+                >
+                  0x6d88cBBD35E19958eFB4500f93D346c126bB7Df2
+                </a>{' '}
+              </li>
+              <li>
+                {' '}
+                ERC20 on BSC Mainnet:
+                <a
+                  href="https://bscscan.com/address/0x7664e0A3862819C48A01648CE5139Ad25dAC12c0#code"
+                  target="_blank"
+                >
+                  0x7664e0A3862819C48A01648CE5139Ad25dAC12c0
+                </a>{' '}
+              </li>
+              <li>
+                NFT on BSC Mainnet:
+                <a
+                  href="https://bscscan.com/address/0xD2f9F7C2CD1b8e1C91d89F271EF80eBFf75F183C#code"
+                  target="_blank"
+                >
+                  0xD2f9F7C2CD1b8e1C91d89F271EF80eBFf75F183C
                 </a>{' '}
               </li>
             </ul>
