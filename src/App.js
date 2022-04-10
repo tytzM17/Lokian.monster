@@ -36,7 +36,8 @@ function App() {
               <h2 style={{ fontSize: '1.25em', lineHeight: '1.75em' }}>
                 Welcome to the landing page for Lokian trading card game with
                 NFTs, share, fight and breed monsters in solidity blockchains.
-                Available in Polygon, Moonriver, Fantom, Avalanche, and BSC networks
+                Available in Polygon, Moonriver, Fantom, Avalanche, and BSC
+                networks
               </h2>
             </header>
 
@@ -71,41 +72,46 @@ function App() {
             </div>
 
             <h2 style={{ textDecoration: 'none' }}>Contracts</h2>
-            <div className='rpgui-container framed-golden-2' style={{position:'relative'}}>
-            <ul>
-              <li>
-                {' '}
-                Main Contract on Polygon Mainnet (same addresses with Moonriver, Avalanche, and Fantom):
-                <a
-                  href=" https://polygonscan.com/address/0x5148A559cFaaEC1A915ae41e00A8Dd2Fa17ba64f#code"
-                  target="_blank"
-                >
-                  0x5148A559cFaaEC1A915ae41e00A8Dd2Fa17ba64f
-                </a>{' '}
-              </li>
-              <li>
-                {' '}
-                ERC20 on Polygon Mainnet:
-                <a
-                  href="https://polygonscan.com/address/0x4d8d24968458af521ef02aefD95f161dF3f9Ea01#code"
-                  target="_blank"
-                >
-                  0x4d8d24968458af521ef02aefD95f161dF3f9Ea01
-                </a>{' '}
-              </li>
-              <li>
-                NFT on Polygon Mainnet:
-                <a
-                  href="https://polygonscan.com/address/0x8227767903Fa90A90060E28a45506318E03997aD#code"
-                  target="_blank"
-                >
-                  0x8227767903Fa90A90060E28a45506318E03997aD
-                </a>{' '}
-              </li>
-            </ul>
+            <div
+              className="rpgui-container framed-golden-2"
+              style={{ position: 'relative' }}
+            >
+              <ul>
+                <li>
+                  {' '}
+                  Main Contract on Polygon Mainnet (same addresses with
+                  Moonriver, Avalanche, and Fantom):
+                  <a
+                    href=" https://polygonscan.com/address/0x5148A559cFaaEC1A915ae41e00A8Dd2Fa17ba64f#code"
+                    target="_blank"
+                  >
+                    0x5148A559cFaaEC1A915ae41e00A8Dd2Fa17ba64f
+                  </a>{' '}
+                </li>
+                <li>
+                  {' '}
+                  ERC20 on Polygon Mainnet:
+                  <a
+                    href="https://polygonscan.com/address/0x4d8d24968458af521ef02aefD95f161dF3f9Ea01#code"
+                    target="_blank"
+                  >
+                    0x4d8d24968458af521ef02aefD95f161dF3f9Ea01
+                  </a>{' '}
+                </li>
+                <li>
+                  NFT on Polygon Mainnet:
+                  <a
+                    href="https://polygonscan.com/address/0x8227767903Fa90A90060E28a45506318E03997aD#code"
+                    target="_blank"
+                  >
+                    0x8227767903Fa90A90060E28a45506318E03997aD
+                  </a>{' '}
+                </li>
+              </ul>
             </div>
 
-<br /><br />
+            <br />
+            <br />
             <ul>
               <li>
                 {' '}
