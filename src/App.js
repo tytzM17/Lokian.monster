@@ -303,24 +303,56 @@ function App() {
                   </li>
                   <li>
                     Exchanges:{' '}
-                    <a
-                      href="https://app.sushi.com/trident/swap?tokens=0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270&tokens=0x4d8d24968458af521ef02aefD95f161dF3f9Ea01&chainId=137"
-                      target="_blank"
-                    >
-                      SushiSwap <i>(polygon)</i>
-                    </a>,{' '}
-                    <a
-                      href="https://pancakeswap.finance/swap"
-                      target="_blank"
-                    >
-                      PancakeSwap <i>(bsc)</i>
-                    </a>,{' '}
-                    <a
-                      href="https://spookyswap.finance/swapp"
-                      target="_blank"
-                    >
-                      SpookySwap <i>(fantom)</i>
-                    </a>                         
+                    <ul>
+                      <li>
+                        <a
+                          href="https://app.sushi.com/trident/swap?tokens=0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270&tokens=0x4d8d24968458af521ef02aefD95f161dF3f9Ea01&chainId=137"
+                          target="_blank"
+                        >
+                          SushiSwap <i>(polygon)</i>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://pancakeswap.finance/swap"
+                          target="_blank"
+                        >
+                          PancakeSwap <i>(bsc)</i>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://spookyswap.finance/swap"
+                          target="_blank"
+                        >
+                          SpookySwap <i>(fantom)</i>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x4d8d24968458af521ef02aefD95f161dF3f9Ea01&chainId=250"
+                          target="_blank"
+                        >
+                          SushiSwap <i>(fantom)</i>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://app.solarbeam.io/exchange/swap"
+                          target="_blank"
+                        >
+                          Solarbeam <i>(moonriver)</i>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x4d8d24968458af521ef02aefD95f161dF3f9Ea01&chainId=43114"
+                          target="_blank"
+                        >
+                          SushiSwap <i>(avalanche)</i>
+                        </a>
+                      </li>
+                    </ul>
                   </li>
                   <li>
                     Token:{' '}
