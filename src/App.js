@@ -314,7 +314,13 @@ function App() {
                       target="_blank"
                     >
                       PancakeSwap <i>(bsc)</i>
-                    </a>        
+                    </a>,{' '}
+                    <a
+                      href="https://spookyswap.finance/swapp"
+                      target="_blank"
+                    >
+                      SpookySwap <i>(fantom)</i>
+                    </a>                         
                   </li>
                   <li>
                     Token:{' '}
