@@ -71,6 +71,11 @@ function App() {
               </a>
             </div>
 
+            <h2 style={{ textDecoration: 'none' }}>
+              <a href='https://www.dapp.com/Dapp.com' target='_blank'>dapp.com</a>, just listed us! visit us <a href='https://www.dapp.com/app/lokian-monster' target='_blank'>here</a>
+            <a href='https://www.dapp.com/app/lokian-monster' target='_blank'><img src={process.env.PUBLIC_URL + '/dappComLogo.png'} style={{maxWidth:'50%', maxHeight:'50%'}}/></a>
+            </h2>
+
             <h2 style={{ textDecoration: 'none' }}>Contracts</h2>
             <div
               className="rpgui-container framed-golden-2"
@@ -82,7 +87,7 @@ function App() {
                   Main Contract on Polygon Mainnet (same addresses with
                   Moonriver, Astar, Avalanche, and Fantom):
                   <a
-                    href=" https://polygonscan.com/address/0x5148A559cFaaEC1A915ae41e00A8Dd2Fa17ba64f#code"
+                    href="https://polygonscan.com/address/0x5148A559cFaaEC1A915ae41e00A8Dd2Fa17ba64f#code"
                     target="_blank"
                   >
                     0x5148A559cFaaEC1A915ae41e00A8Dd2Fa17ba64f
@@ -482,6 +487,12 @@ function App() {
                   Twitter:{' '}
                   <a href="https://twitter.com/LokianMonster" target="_blank">
                     LokiMons Account
+                  </a>{' '}
+                </li>
+                <li>
+                  Dapp.com:{' '}
+                  <a href="https://www.dapp.com/app/lokian-monster" target="_blank">
+                    LokiMons Dapp.com Page
                   </a>{' '}
                 </li>
               </ul>
