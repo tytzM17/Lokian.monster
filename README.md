@@ -33,11 +33,11 @@ Done
 - Create minimal landing page (mvp)
 - Deploy to evm compatible mainnets (mvp)
 - Refactor app upon hosting (mvp)
+- Submit dapp (mvp)
+- make responsive website, mobile friendly (mvp)
 
 Ongoing
-- Submit dapp (mvp)
-- List coin in coingecko, coinmarketcap (mvp)
-- List on gate.io, okex
+
 
 
 

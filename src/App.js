@@ -14,149 +14,213 @@ function App() {
             style={{ position: 'relative' }}
           >
             <header>
-              <div
-                style={{
-                  display: 'flex',
-                  flexDirection: 'column',
-                  justifyContent: 'center',
-                  alignItems: 'center',
-                }}
-              >
-                <img
-                  src={process.env.PUBLIC_URL + '/android-chrome-192x192.png'}
-                  width="120"
-                  height="120"
-                  className="App-logo"
-                  alt="logo"
-                />
-                <h1 style={{ fontSize: '2.5em' }}>lokian.monster</h1>
+              <div className="row">
+                <div className="column column-50">
+                  <div className="logo">
+                    <img
+                      src={
+                        process.env.PUBLIC_URL + '/android-chrome-192x192.png'
+                      }
+                      className="App-logo"
+                      alt="logo"
+                      href="#"
+                    />
+                  </div>
+                </div>
+
+                <div className="column column-50">
+                  <div className="column column-50">
+                    <h1 className="logo-with-name">LOKIAN</h1>
+                  </div>
+                  <div className="column column-50">
+                    <h1 className="logo-with-name">MONSTERS</h1>
+                  </div>
+                </div>
               </div>
 
-              <hr style={{ clear: 'both' }} />
-              <h2 style={{ fontSize: '1.25em', lineHeight: '1.75em' }}>
-                Welcome to the landing page for Lokian trading card game with
-                NFTs, share, fight and breed monsters in solidity blockchains.
-                Available in Polygon, Moonriver, Astar, Fantom, Avalanche, and BSC
-                networks
-              </h2>
+              <div className="row">
+                <div className="column">
+                  <hr style={{ clear: 'both' }} />
+                </div>
+              </div>
+
+              <div className="row">
+                <div className="column column-50">
+                  <h2 style={{ fontSize: '1.25em', lineHeight: '1.75em' }}>
+                    LokiMons, is a trading card game with NFTs, share, fight and
+                    breed monsters in solidity blockchains. Available in
+                    Polygon, Moonriver, Astar, Fantom, Avalanche, and BSC
+                    networks
+                  </h2>
+                </div>
+
+                <div className="column column-50">
+                  <div className="">
+                    <div className="column column-100">
+                      <a href="https://app.lokian.monster" target="_blank">
+                        <button type="button" className="rpgui-button">
+                          <p>Launch App</p>
+                        </button>
+                      </a>
+                    </div>
+                    <div className="column column-100">
+                      <a href="#tokenomix">
+                        <button type="button" className="rpgui-button">
+                          <p>Tokenomix</p>
+                        </button>
+                      </a>
+                    </div>
+                    <div className="column column-100">
+                      <a href="#socials">
+                        <button type="button" className="rpgui-button">
+                          <p>Socials</p>
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </header>
 
-            <div className="rpgui-center" style={{ marginBottom: '60px' }}>
-              <a href="https://app.lokian.monster" target="_blank">
-                <button
-                  type="button"
-                  className="rpgui-button"
-                  style={{ width: '32%' }}
-                >
-                  <p>Launch App</p>
-                </button>
-              </a>
-              <a href="#tokenomix">
-                <button
-                  type="button"
-                  className="rpgui-button"
-                  style={{ width: '32%' }}
-                >
-                  <p>Tokenomix</p>
-                </button>
-              </a>
-              <a href="#socials">
-                <button
-                  type="button"
-                  className="rpgui-button"
-                  style={{ width: '32%' }}
-                >
-                  <p>Socials</p>
-                </button>
-              </a>
+            <div className="row">
+              <div className="column">
+                <hr style={{ clear: 'both' }} />
+              </div>
             </div>
 
-            <h2 style={{ textDecoration: 'none' }}>
-              <a href='https://www.dapp.com/Dapp.com' target='_blank'>dapp.com</a>, just listed us! visit us <a href='https://www.dapp.com/app/lokian-monster' target='_blank'>here</a>
-            <a href='https://www.dapp.com/app/lokian-monster' target='_blank'><img src={process.env.PUBLIC_URL + '/dappComLogo.png'} style={{maxWidth:'50%', maxHeight:'50%'}}/></a>
-            </h2>
+            <div className="row">
+              <div className="column column-50">
+                <h1 className="listings">Listings around the web </h1>
+              </div>
 
-            <h2 style={{ textDecoration: 'none' }}>Contracts</h2>
-            <div
-              className="rpgui-container framed-golden-2"
-              style={{ position: 'relative' }}
-            >
-              <ul>
-                <li>
-                  {' '}
-                  Main Contract on Polygon Mainnet (same addresses with
-                  Moonriver, Astar, Avalanche, and Fantom):
+              <div className="column column-50">
+                <div className="column column-50">
                   <a
-                    href="https://polygonscan.com/address/0x5148A559cFaaEC1A915ae41e00A8Dd2Fa17ba64f#code"
+                    href="https://www.dapp.com/app/lokian-monster"
                     target="_blank"
                   >
-                    0x5148A559cFaaEC1A915ae41e00A8Dd2Fa17ba64f
-                  </a>{' '}
-                </li>
-                <li>
-                  {' '}
-                  ERC20 on Polygon Mainnet:
+                    <img
+                      src={process.env.PUBLIC_URL + '/dappComLogo.png'}
+                      style={{ maxWidth: '50%', maxHeight: '50%' }}
+                    />
+                  </a>
+                </div>
+                <div className="column column-50">
                   <a
-                    href="https://polygonscan.com/address/0x4d8d24968458af521ef02aefD95f161dF3f9Ea01#code"
+                    href="https://dappradar.com/multichain/games/lokian-monsters"
                     target="_blank"
                   >
-                    0x4d8d24968458af521ef02aefD95f161dF3f9Ea01
-                  </a>{' '}
-                </li>
-                <li>
-                  NFT on Polygon Mainnet:
-                  <a
-                    href="https://polygonscan.com/address/0x8227767903Fa90A90060E28a45506318E03997aD#code"
-                    target="_blank"
-                  >
-                    0x8227767903Fa90A90060E28a45506318E03997aD
-                  </a>{' '}
-                </li>
-              </ul>
+                    <img
+                      src={process.env.PUBLIC_URL + '/dappradar-logo.png'}
+                      style={{ maxWidth: '50%', maxHeight: '50%' }}
+                    />
+                  </a>
+                </div>
+              </div>
             </div>
 
             <br />
             <br />
-            <ul>
-              <li>
-                {' '}
-                Main Contract on BSC Mainnet:
-                <a
-                  href=" https://bscscan.com/address/0x6d88cBBD35E19958eFB4500f93D346c126bB7Df2#code"
-                  target="_blank"
-                >
-                  0x6d88cBBD35E19958eFB4500f93D346c126bB7Df2
-                </a>{' '}
-              </li>
-              <li>
-                {' '}
-                ERC20 on BSC Mainnet:
-                <a
-                  href="https://bscscan.com/address/0x7664e0A3862819C48A01648CE5139Ad25dAC12c0#code"
-                  target="_blank"
-                >
-                  0x7664e0A3862819C48A01648CE5139Ad25dAC12c0
-                </a>{' '}
-              </li>
-              <li>
-                NFT on BSC Mainnet:
-                <a
-                  href="https://bscscan.com/address/0xD2f9F7C2CD1b8e1C91d89F271EF80eBFf75F183C#code"
-                  target="_blank"
-                >
-                  0xD2f9F7C2CD1b8e1C91d89F271EF80eBFf75F183C
-                </a>{' '}
-              </li>
-            </ul>
-            <div style={{ display: 'flex', justifyContent: 'center' }}>
-              <a href="https://bsc.lokian.monster" target="_blank">
-                <button type="button" className="rpgui-button">
-                  <p>Launch BSC App</p>
-                </button>
-              </a>
+            <div className="row">
+              <div className="column column-100">
+                <div className="marquee">
+                  <p> Plus new monster listings on Polygon, batch 24-34!</p>
+                </div>
+              </div>
             </div>
-            <br />
-            <br />
+
+            <div className="row">
+              <div className="column">
+                <hr style={{ clear: 'both' }} />
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="column column-50">
+                <div
+                  className="rpgui-container framed-golden-2"
+                  style={{ position: 'relative' }}
+                >
+                  <ul>
+                    <li className="overflow-x-auto">
+                      {' '}
+                      Main Contract on Polygon Mainnet (same addresses with
+                      Moonriver, Astar, Avalanche, and Fantom):
+                      <a
+                        href="https://polygonscan.com/address/0x5148A559cFaaEC1A915ae41e00A8Dd2Fa17ba64f#code"
+                        target="_blank"
+                      >
+                        0x5148A559cFaaEC1A915ae41e00A8Dd2Fa17ba64f
+                      </a>{' '}
+                    </li>
+                    <li className="overflow-x-auto">
+                      {' '}
+                      ERC20 on Polygon Mainnet:
+                      <a
+                        href="https://polygonscan.com/address/0x4d8d24968458af521ef02aefD95f161dF3f9Ea01#code"
+                        target="_blank"
+                      >
+                        0x4d8d24968458af521ef02aefD95f161dF3f9Ea01
+                      </a>{' '}
+                    </li>
+                    <li className="overflow-x-auto">
+                      NFT on Polygon Mainnet:
+                      <a
+                        href="https://polygonscan.com/address/0x8227767903Fa90A90060E28a45506318E03997aD#code"
+                        target="_blank"
+                      >
+                        0x8227767903Fa90A90060E28a45506318E03997aD
+                      </a>{' '}
+                    </li>
+                  </ul>
+                </div>
+              </div>
+
+              <br />
+              <br />
+
+              <div className="column column-50">
+                <ul>
+                  <li className="overflow-x-auto">
+                    {' '}
+                    Main Contract on BSC Mainnet:
+                    <a
+                      href=" https://bscscan.com/address/0x6d88cBBD35E19958eFB4500f93D346c126bB7Df2#code"
+                      target="_blank"
+                    >
+                      0x6d88cBBD35E19958eFB4500f93D346c126bB7Df2
+                    </a>{' '}
+                  </li>
+                  <li className="overflow-x-auto">
+                    {' '}
+                    ERC20 on BSC Mainnet:
+                    <a
+                      href="https://bscscan.com/address/0x7664e0A3862819C48A01648CE5139Ad25dAC12c0#code"
+                      target="_blank"
+                    >
+                      0x7664e0A3862819C48A01648CE5139Ad25dAC12c0
+                    </a>{' '}
+                  </li>
+                  <li className="overflow-x-auto">
+                    NFT on BSC Mainnet:
+                    <a
+                      href="https://bscscan.com/address/0xD2f9F7C2CD1b8e1C91d89F271EF80eBFf75F183C#code"
+                      target="_blank"
+                    >
+                      0xD2f9F7C2CD1b8e1C91d89F271EF80eBFf75F183C
+                    </a>{' '}
+                  </li>
+                </ul>
+                <div style={{ display: 'flex', justifyContent: 'center' }}>
+                  <a href="https://bsc.lokian.monster" target="_blank">
+                    <button type="button" className="rpgui-button">
+                      <p>Launch BSC App</p>
+                    </button>
+                  </a>
+                </div>
+              </div>
+            </div>
+
             <br />
             <br />
             <img
@@ -169,133 +233,89 @@ function App() {
                 right: '0px',
               }}
             />
-            <h4 style={{ float: 'right', textDecoration: 'none' }}>
-              more info :)
-            </h4>
+            <h4 className="section-title">more info :)</h4>
             <hr style={{ clear: 'both' }} />
-            <br />
-            <br />
 
-            <h2 style={{ fontSize: '1.25em', lineHeight: '1.75em' }}>
-              See your monsters
-            </h2>
+            <div className="img-title">See your monsters</div>
 
-            <img
-              src={process.env.PUBLIC_URL + '/myCreatures.PNG'}
-              width="100%"
-            />
+            <img src={process.env.PUBLIC_URL + '/myCreatures.PNG'} />
 
             <br />
             <br />
-            <h2 style={{ fontSize: '1.25em', lineHeight: '1.75em' }}>
-              Sell monsters at the Shop
-            </h2>
+            <div className="img-title">Sell monsters at the Shop</div>
 
-            <img
-              src={process.env.PUBLIC_URL + '/myShop-Capture.PNG'}
-              width="100%"
-            />
+            <img src={process.env.PUBLIC_URL + '/myShop-Capture.PNG'} />
 
             <br />
             <br />
-            <h2 style={{ fontSize: '1.25em', lineHeight: '1.75em' }}>
-              Buy monsters at the Marketplace
-            </h2>
+            <div className="img-title">Buy monsters at the Marketplace</div>
 
-            <img
-              src={process.env.PUBLIC_URL + '/marketplace.PNG'}
-              width="100%"
-            />
+            <img src={process.env.PUBLIC_URL + '/marketplace.PNG'} />
 
             <br />
             <br />
-            <h2 style={{ fontSize: '1.25em', lineHeight: '1.75em' }}>
+            <div className="img-title">
               Breed monsters at the breeding grounds
-            </h2>
+            </div>
 
-            <img src={process.env.PUBLIC_URL + '/breed.PNG'} width="100%" />
+            <img src={process.env.PUBLIC_URL + '/breed.PNG'} />
 
             <br />
             <br />
-            <h2 style={{ fontSize: '1.25em', lineHeight: '1.75em' }}>
+            <div className="img-title">
               Fight with other monsters at the Arena
-            </h2>
+            </div>
 
-            <img src={process.env.PUBLIC_URL + '/Arena.png'} width="100%" />
+            <img src={process.env.PUBLIC_URL + '/Arena.png'} />
 
             <br />
             <br />
-            <h2 style={{ fontSize: '1.25em', lineHeight: '1.75em' }}>
+            <div className="img-title">
               Share with other users at the Sharing Area
-            </h2>
+            </div>
 
-            <img src={process.env.PUBLIC_URL + '/share.PNG'} width="100%" />
-
-            <br />
-            <br />
-            <h2 style={{ fontSize: '1.25em', lineHeight: '1.75em' }}>
-              And see what others shared to u
-            </h2>
-
-            <img
-              src={process.env.PUBLIC_URL + '/sharedToMe.PNG'}
-              width="100%"
-            />
+            <img src={process.env.PUBLIC_URL + '/share.PNG'} />
 
             <br />
             <br />
-            <h2 style={{ fontSize: '1.25em', lineHeight: '1.75em' }}>
+            <div className="img-title">And see what others shared to u</div>
+
+            <img src={process.env.PUBLIC_URL + '/sharedToMe.PNG'} />
+
+            <br />
+            <br />
+            <div className="img-title">
               bonus! Buy NFTs and Give (burn tokens) to the Skeleton people at
               the Token Area
-            </h2>
+            </div>
 
-            <img src={process.env.PUBLIC_URL + '/skelly.png'} width="50%" />
-            <img src={process.env.PUBLIC_URL + '/skelly2.png'} width="50%" />
+            <img
+              src={process.env.PUBLIC_URL + '/skelly.png'}
+              className="skellies"
+            />
+            <img
+              src={process.env.PUBLIC_URL + '/skelly2.png'}
+              className="skellies"
+            />
 
-            <div id="tokenomix" style={{ marginBottom: '80px' }}>
-              <h4
-                style={{
-                  float: 'right',
-                  textDecoration: 'none',
-                  marginTop: '80px',
-                }}
-              >
-                tokenomix :)
-              </h4>
+            <div id="tokenomix">
+              <h4 className="section-title">tokenomix :)</h4>
               <hr style={{ clear: 'both' }} />
               <br />
-              <br />
 
-              <a href="#main">
-                {' '}
-                <button
-                  class="rpgui-button golden"
-                  type="button"
-                  style={{
-                    position: 'fixed',
-                    left: '13%',
-                    top: '50%',
-                    bottom: 'auto',
-                  }}
-                >
-                  <p>go up</p>
-                </button>
-              </a>
-
-              <br />
-              <br />
-              <h2 style={{ fontSize: '1.25em', lineHeight: '1.75em' }}>
+              <div className="img-title">
                 The token name is Lokians, an ERC20 token
-              </h2>
-              <h2>
+              </div>
+              <h2 className="token">
                 <input
-                  class="rpgui-radio golden"
+                  className="rpgui-radio golden"
                   type="radio"
                   value="some val"
                 />
                 <label style={{ height: '50px', width: '50px' }}></label>
               </h2>
-              <div>
+
+              <div className="token">
                 <ul>
                   <li>Supply: Infinite, </li>
                   <li>
@@ -390,16 +410,16 @@ function App() {
 
               <br />
               <br />
-              <h2 style={{ fontSize: '1.25em', lineHeight: '1.75em' }}>
+              <div className="img-title">
                 The NFT name is LokianItems, an ERC1155 token
-              </h2>
-              <h2>
+              </div>
+              <h2 className="token">
                 <div className="rpgui-icon potion-red"></div>
                 <div className="rpgui-icon potion-green"></div>
                 <div className="rpgui-icon potion-blue"></div>
               </h2>
 
-              <ul>
+              <ul className="token">
                 <li>
                   All Item Supply (except with the one secret item): 10^27{' '}
                   <i>(not infinite)</i>{' '}
@@ -432,17 +452,7 @@ function App() {
               </ul>
             </div>
 
-            <br />
-            <br />
-            <br />
-            <br />
-
-            <h4
-              style={{
-                float: 'right',
-                textDecoration: 'none',
-              }}
-            >
+            <h4 className="section-title">
               socials
               <img
                 src={process.env.PUBLIC_URL + '/socials-Capture.png'}
@@ -460,8 +470,8 @@ function App() {
             <br />
 
             <div id="socials">
-              <ul>
-                <li>
+              <ul className="token">
+                <li className="overflow-x-auto">
                   Github:{' '}
                   <a
                     href="https://github.com/tytzM17/Lokian.eth"
@@ -477,45 +487,56 @@ function App() {
                     LokiMons Website
                   </a>
                 </li>
-                <li>
+                <li className="overflow-x-auto">
                   Telegram:{' '}
                   <a href="https://t.me/lokiMons" target="_blank">
                     LokiMons Channel
                   </a>{' '}
                 </li>
-                <li>
+                <li className="overflow-x-auto">
                   Twitter:{' '}
                   <a href="https://twitter.com/LokianMonster" target="_blank">
                     LokiMons Account
                   </a>{' '}
                 </li>
-                <li>
+                <li className="overflow-x-auto">
                   Dapp.com:{' '}
-                  <a href="https://www.dapp.com/app/lokian-monster" target="_blank">
+                  <a
+                    href="https://www.dapp.com/app/lokian-monster"
+                    target="_blank"
+                  >
                     LokiMons Dapp.com Page
+                  </a>{' '}
+                </li>
+                <li className="overflow-x-auto">
+                  Dappradar.com:{' '}
+                  <a
+                    href="https://dappradar.com/multichain/games/lokian-monsters"
+                    target="_blank"
+                  >
+                    LokiMons Dappradar.com Page
                   </a>{' '}
                 </li>
               </ul>
             </div>
 
             <br />
-            <br />
-            <br />
-            <br />
             <hr style={{ clear: 'both' }} />
             <br />
-            <br />
 
-            <div class="rpgui-center">
-              <h1 style={{ fontSize: '1.25em', lineHeight: '1.75em' }}>
-                That's it, for now!
-              </h1>
-              <p>Check out DAO and Staking in the future!</p>
-              <br />
-              <br />
-              <a href="#main">Back to Top</a>
-              <br />
-              <br />
+            <div className="token">
+              <h2>That's it, for now!</h2>
+
+              <h2>
+                <p>Check out Staking and PVP duels in the future!</p>
+                <p>all rights reserved @ lokian monsters 2022 </p>
+                <br />
+                <br />
+                <a href="#main">Back to Top</a>
+                <br />
+                <br />
+              </h2>
+
               <img
                 src={process.env.PUBLIC_URL + '/lesh.png'}
                 style={{
