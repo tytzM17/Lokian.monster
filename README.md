@@ -1,4 +1,4 @@
-# [Lokian.monster](https://lokian.onster) : A landing page for Lokian trading card game with NFTs, share, fight and breed monsters in solidity blockchains.
+# [Lokian.monster](https://lokian.monster) : A landing page for Lokian trading card game with NFTs, share, fight and breed monsters in solidity blockchains.
 
 # [Lokian.eth](https://github.com/tytzM17/Lokian.eth) 
 ## The main app github page for Lokian trading card game with NFTs, share, fight and breed monsters in solidity blockchains.
