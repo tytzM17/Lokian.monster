@@ -88,6 +88,64 @@ function App() {
               </div>
             </div>
 
+             <div className="row">
+              <div className="column column-50">
+                <h1 className="listings">News and Updates: </h1>
+              </div>
+
+              <div className="column column-50">
+                <div className="column column-95">
+                  <p style={{color:'silver'}}>09/16/2023 - New UI (done) and PvP (work in progress)</p>
+                </div>
+                <div className="column column-95">
+                  <a
+                    href="/newUI-1.png"
+                    target="_blank"
+                  >
+                    <img
+                      src={process.env.PUBLIC_URL + '/newUI-1.png'}
+                    />
+                  </a>
+                </div>
+                <div className="column column-95">
+                  <a
+                    href="/newUI-2.png"
+                    target="_blank"
+                  >
+                    <img
+                      src={process.env.PUBLIC_URL + '/newUI-2.png'}
+                    />
+                  </a>
+                </div>
+                <div className="column column-95">
+                  <a
+                    href="/newUI-3.png"
+                    target="_blank"
+                  >
+                    <img
+                      src={process.env.PUBLIC_URL + '/newUI-3.png'}
+                    />
+                  </a>
+                </div>
+                <div className="column column-95">
+                  <a
+                    href="/newUI-4.png"
+                    target="_blank"
+                  >
+                    <img
+                      src={process.env.PUBLIC_URL + '/newUI-4.png'}
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="column">
+                <hr style={{ clear: 'both' }} />
+              </div>
+            </div>
+
             <div className="row">
               <div className="column column-50">
                 <h1 className="listings">Listings around the web </h1>

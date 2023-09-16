@@ -30,15 +30,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 - Open [http://localhost:3000](http://localhost:3000) to view it in the browser. You can see all the Creatures owned by the current metamask account and play the game.
 
-## Remaining Tasks
-Done
-- Create minimal landing page (mvp)
-- Deploy to evm compatible mainnets (mvp)
-- Refactor app upon hosting (mvp)
-- Submit dapp (mvp)
-- make responsive website, mobile friendly (mvp)
+## Addendum 
+- 09/16/2023, New section for news and updates, with images, topic and date.
 
-Ongoing
 
 
 
